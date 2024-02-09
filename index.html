@@ -27,900 +27,979 @@
 </head>
 
 <body class="hidden">
-        <!--================Preloder============ -->
-        <div id="preloader" class="hidden">
-                <div id="preloader_bg" class="d-flex align-items-center justify-content-center z-1000">
-                        <img class="preloader_img cursor"
-                                src="./assets/img/svg/logo/Homepage  updated 2/1/Evergreen Landscapes Logo-01 (1) 2.svg"
-                                alt="logo">
+        <div class="overflow-hidden">
+                <!--================Preloder============ -->
+                <div id="preloader" class="hidden">
+                        <div id="preloader_bg" class="d-flex align-items-center justify-content-center z-1000">
+                                <img class="preloader_img cursor"
+                                        src="./assets/img/svg/logo/Homepage  updated 2/1/Evergreen Landscapes Logo-01 (1) 2.svg"
+                                        alt="logo">
+                        </div>
                 </div>
-        </div>
 
-        <header class="d-flex min-vh-100 flex-column overflow-hidden" id="Home">
+                <header class="d-flex min-vh-100 flex-column overflow-hidden" id="Home">
 
-                <nav>
-                        <div class="container-fluid  pe-0">
-                                <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#"><img class="max_w_259 cursor"
-                                                        src="./assets/img/png/logo/Homepage  updated 2/1/Group 19.png"
-                                                        alt="logo"></a>
-                                        <ul
-                                                class="mb-0 ps-0 d-xl-flex align-items-center gap-3 gap-xl-4 text-black d-none d-xl-block d-none">
-                                                <li class="position-relative"><a href="#home"
-                                                                class="ff-dm fs_16 fw-medium underline text-black">Home</a>
-                                                </li>
-                                                <li class="position-relative"><a href="#about_us"
-                                                                class="ff-dm fs_16 fw-medium underline text-black">About
-                                                                us</a>
-                                                </li>
-                                                <li class="position-relative"><a href="#our_services"
-                                                                class="ff-dm fs_16 fw-medium underline text-black">Our
-                                                                Services</a>
-                                                </li>
-                                                <li class="position-relative"><a href="#gallery"
-                                                                class="ff-dm fs_16 fw-medium underline text-black">Gallery</a>
-                                                </li>
-                                                <li class="position-relative"><a href="#contact"
-                                                                class="ff-dm fs_16 fw-medium underline text-black">Contact
-                                                                Us</a>
-                                                </li>
-
-                                                <button
-                                                        class="d-xl-block d-none fw-bold tracking-3 fs_14 carousel-captions transition_5 navbtn">Request
-                                                        a quote</button>
-                                        </ul>
-
-                                        <button id="openNav" onclick="openNav()" class="menu d-xl-none"
-                                                type="button">&#9776</button>
-                                        <div id="Menu"
-                                                class="d-xl-none navbar1 d-flex justify-content-center align-items-center text-center">
-                                                <button class="menu position-absolute closbtn" onclick="closeNav()"
-                                                        type="button">&times;</button>
-                                                <ul class="mb-0 ps-0 d-flex flex-column gap-4 text-black">
-                                                        <li onclick="closeNav()"><a href="#home"
-                                                                        class="ff-dm fs_16 fw-medium text-black">Home</a>
+                        <nav>
+                                <div class="container-fluid pe-0">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                                <a href="#"><img class="mw_350 cursor"
+                                                                src="./assets/img/png/logo/Homepage  updated 2/1/Group 19.png"
+                                                                alt="logo"></a>
+                                                <ul
+                                                        class="mb-0 ps-0 d-xl-flex align-items-center gap-3 gap-xl-4 text-black d-none d-xl-block d-none">
+                                                        <li class="position-relative"><a href="#home"
+                                                                        class="ff-pop fs_16 fw-normal underline text-black">Home</a>
                                                         </li>
-                                                        <li onclick="closeNav()"><a href="#about_us"
-                                                                        class="ff-dm fs_16 fw-medium text-black">About
+                                                        <li class="position-relative"><a href="#about_us"
+                                                                        class="ff-pop fs_16 fw-normal underline text-black">About
                                                                         us</a>
                                                         </li>
-                                                        <li onclick="closeNav()"><a href="#our_services"
-                                                                        class="ff-dm fs_16 fw-medium text-black">Our
+                                                        <li class="position-relative"><a href="#our_services"
+                                                                        class="ff-pop fs_16 fw-normal underline text-black">Our
                                                                         Services</a>
                                                         </li>
-                                                        <li onclick="closeNav()"><a href="#gallery"
-                                                                        class="ff-dm fs_16 fw-medium text-black">Gallery</a>
+                                                        <li class="position-relative"><a href="#gallery"
+                                                                        class="ff-pop fs_16 fw-normal underline text-black">Gallery</a>
                                                         </li>
-                                                        <li onclick="closeNav()"><a href="#contactl"
-                                                                        class="ff-dm fs_16 fw-medium text-black">Contact
+                                                        <li class="position-relative"><a href="#contact"
+                                                                        class="ff-pop fs_16 fw-normal underline text-black">Contact
                                                                         Us</a>
                                                         </li>
-                                                        <button class="ff-dm fs_14 fw-bold cursor transition_5 tracking-3 navbtn "
-                                                                onclick="closeNav()">Request a quote</button>
+
+                                                        <button
+                                                                class="d-xl-block d-none fw-bold tracking-3 fs_14 carousel-captions transition_5 navbtn">Request
+                                                                a quote</button>
                                                 </ul>
 
+                                                <button id="openNav" onclick="openNav()" class="menu d-xl-none"
+                                                        type="button">&#9776</button>
+                                                <div id="Menu"
+                                                        class="d-xl-none navbar1 d-flex justify-content-center align-items-center text-center">
+                                                        <button class="menu position-absolute closbtn"
+                                                                onclick="closeNav()" type="button">&times;</button>
+                                                        <ul class="mb-0 ps-0 d-flex flex-column gap-4 text-black">
+                                                                <li onclick="closeNav()"><a href="#home"
+                                                                                class="ff-pop fs_16 fw-normal text-black">Home</a>
+                                                                </li>
+                                                                <li onclick="closeNav()"><a href="#about_us"
+                                                                                class="ff-pop fs_16 fw-normal text-black">About
+                                                                                us</a>
+                                                                </li>
+                                                                <li onclick="closeNav()"><a href="#our_services"
+                                                                                class="ff-pop fs_16 fw-normal text-black">Our
+                                                                                Services</a>
+                                                                </li>
+                                                                <li onclick="closeNav()"><a href="#gallery"
+                                                                                class="ff-pop fs_16 fw-normal text-black">Gallery</a>
+                                                                </li>
+                                                                <li onclick="closeNav()"><a href="#contactl"
+                                                                                class="ff-pop fs_16 fw-normal text-black">Contact
+                                                                                Us</a>
+                                                                </li>
+                                                                <button class="ff-pop fs_16 fw-normalursor transition_5 tracking-3 navbtn "
+                                                                        onclick="closeNav()">Request a quote</button>
+                                                        </ul>
+
+
+                                                </div>
+                                        </div>
+                                </div>
+                        </nav>
+
+                        <!--============= slider Start =============-->
+
+                        <section class="flex-grow-1">
+                                <div class="slider_1">
+
+                                        <div class="slider-1 curor d-flex align-items-end">
+                                                <div class="container ps-md-5 ps-3 pb-5">
+                                                        <h2 data-aos="fade-right" data-aos-duration="1500"
+                                                                class="ff-libre fw-bold fs_40 fst-italict text-white ">
+                                                                Ut
+                                                                pretium
+                                                                egestas
+                                                                <span class="d-block">sagittis <span class="fst-italic">
+                                                                                convallis</span></span>
+                                                        </h2>
+                                                        <p data-aos="fade-right" data-aos-duration="1500"
+                                                                class="ff-pop fw-normal fs_16 text-white">Platea neque
+                                                                amet a
+                                                                dolor.
+                                                                Libero
+                                                                malesuada pellentesque ultrices
+                                                                <span class="d-block">urna pellentesque. Varius in est
+                                                                        porttitor
+                                                                        pellentesque.</span>
+                                                        </p>
+                                                        <button class="ff-pop fw-medium fs_16 common_btn transition_5">Request
+                                                                a
+                                                                quote</button>
+                                                </div>
+                                        </div>
+
+                                        <div class="slider-2 cursor  d-flex align-items-end">
+                                                <div class="container ps-md-5 ps-3 pb-5">
+                                                        <h2 data-aos="fade-right" data-aos-duration="1500"
+                                                                class="ff-libre fw-bold fs_40 fst-italict text-white ">
+                                                                Sit
+                                                                amet in
+                                                                <span class="d-block">vulputate ultrices</span>
+                                                        </h2>
+                                                        <p data-aos="fade-right" data-aos-duration="1500"
+                                                                class="ff-pop fw-normal fs_16 text-white">Platea neque
+                                                                amet a
+                                                                dolor. Libero malesuada pellentesque ultrices
+                                                                <span class="d-block">urna
+                                                                        pellentesque. Varius in est porttitor
+                                                                        pellentesque.</span>
+                                                        </p>
+                                                        <button class="ff-pop fw-medium fs_16 common_btn transition_5 ">Request
+                                                                a
+                                                                quote</button>
+                                                </div>
+
+                                        </div>
+
+                                        <div class="slider-3 cursor d-flex align-items-end">
+                                                <div class="container ps-md-5 ps-3 pb-5">
+                                                        <h2 data-aos="fade-right" data-aos-duration="1500"
+                                                                class="ff-libre fw-bold fs_40 fst-italict text-white ">
+                                                                Donec
+                                                                orci mauris
+                                                                <span class="d-block">in enim viverra</span>
+                                                        </h2>
+                                                        <p data-aos="fade-right" data-aos-duration="1500"
+                                                                class="ff-pop fw-normal fs_16 text-white">Platea neque
+                                                                amet a
+                                                                dolor.
+                                                                Libero
+                                                                malesuada pellentesque ultrices
+                                                                <span class="d-block">urna pellentesque. Varius in est
+                                                                        porttitor
+                                                                        pellentesque.</span>
+                                                        </p>
+                                                        <button class="ff-pop fw-medium fs_16 common_btn transition_5 ">Request
+                                                                a
+                                                                quote</button>
+                                                </div>
+
+                                        </div>
+
+                                        <div class="slider-2 cursor d-flex align-items-end">
+                                                <div class="container ps-md-5 ps-3 pb-5">
+                                                        <h2 data-aos="fade-right" data-aos-duration="1500"
+                                                                class="ff-libre fw-bold fs_40 fst-italict text-white ">
+                                                                Sit
+                                                                amet in
+                                                                <span class="d-block">vulputate ultrices</span>
+                                                        </h2>
+                                                        <p data-aos="fade-right" data-aos-duration="1500"
+                                                                class="ff-pop fw-normal fs_16 text-white">Platea neque
+                                                                amet a
+                                                                dolor.
+                                                                Libero
+                                                                malesuada pellentesque ultrices
+                                                                <span class="d-block">urna pellentesque. Varius in est
+                                                                        porttitor
+                                                                        pellentesque.</span>
+                                                        </p>
+                                                        <button class="ff-pop fw-medium fs_16 common_btn transition_5 ">Request
+                                                                a
+                                                                quote</button>
+                                                </div>
+
+                                        </div>
+                                </div>
+                        </section>
+                        <!--============= slider End =============-->
+                </header>
+
+                <section class="py-md-5 py-0 my-md-5 my-4">
+                        <div data-aos="fade-down" data-aos-duration="1500"
+                                class="d-flex justify-content-center align-items-center">
+                                <h2
+                                        class="ff-libre fw-medium fs_36 fst-italic text-center text_change cursor mb-0 transition_5">
+                                        Licensed </h2>
+                                <p class="ff-libre fw-medium fs_36 text_green mb-0 px-2 ">-</p>
+                                <h2
+                                        class="ff-libre fw-medium fs_36 fst-italic text-center text_change cursor mb-0 transition_5">
+                                        Bonded
+                                </h2>
+                                <p class="ff-libre fw-medium fs_36 text_green mb-0 px-2">-</p>
+                                <h2
+                                        class="ff-libre fw-medium fs_36 fst-italic text-center text_change cursor mb-0 transition_5">
+                                        Insured </h2>
+                        </div>
+
+                </section>
+
+                <section class="green_img" id="about_us">
+                        <div class="container py_76">
+                                <div class="d-flex justify-content-center">
+                                        <h2 data-aos="fade-down" data-aos-duration="1500"
+                                                class="ff-libre fw-medium fs_36  mw_476 text-center">Why <span
+                                                        class="text_green fst-italic"> customers
+                                                        choose
+                                                </span>
+                                                Evergreen Landscapes LLC</h2>
+                                </div>
+                                <div class="row pt_44">
+                                        <div data-aos="fade-right" data-aos-duration="1500"
+                                                class="col-12 col-md-6 col-lg-4 ">
+                                                <div class="box_1 mx-auto mx-md-0 transition_5">
+                                                        <span class="crcle cursor transition_5">
+                                                                <svg width="24" height="25" viewBox="0 0 24 25"
+                                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M17 22.9095H5C4.20435 22.9095 3.44129 22.5934 2.87868 22.0308C2.31607 21.4682 2 20.7052 2 19.9095V9.90951C2 9.11386 2.31607 8.3508 2.87868 7.78819C3.44129 7.22558 4.20435 6.90951 5 6.90951H6C6.01682 6.06215 6.30235 5.24203 6.81541 4.56744C7.32848 3.89285 8.04255 3.39866 8.85464 3.15614C9.66673 2.91363 10.5349 2.93533 11.3338 3.21811C12.1328 3.50089 12.8213 4.03013 13.3 4.72951C13.7484 5.36866 13.9925 6.12877 14 6.90951H17C17.2652 6.90951 17.5196 7.01487 17.7071 7.2024C17.8946 7.38994 18 7.64429 18 7.90951V10.9095C18.8474 10.9263 19.6675 11.2119 20.3421 11.7249C21.0167 12.238 21.5109 12.9521 21.7534 13.7641C21.9959 14.5762 21.9742 15.4444 21.6914 16.2433C21.4086 17.0423 20.8794 17.7308 20.18 18.2095C19.5409 18.658 18.7807 18.902 18 18.9095V21.9095C18 22.1747 17.8946 22.4291 17.7071 22.6166C17.5196 22.8042 17.2652 22.9095 17 22.9095ZM5 8.90951C4.73478 8.90951 4.48043 9.01487 4.29289 9.2024C4.10536 9.38994 4 9.64429 4 9.90951V19.9095C4 20.1747 4.10536 20.4291 4.29289 20.6166C4.48043 20.8042 4.73478 20.9095 5 20.9095H16V17.7295C15.9991 17.5692 16.0368 17.411 16.1099 17.2683C16.183 17.1256 16.2894 17.0025 16.42 16.9095C16.5502 16.8166 16.7008 16.7564 16.8592 16.7338C17.0175 16.7111 17.179 16.7268 17.33 16.7795C17.615 16.8958 17.9254 16.9357 18.2305 16.8954C18.5357 16.855 18.825 16.7358 19.07 16.5495C19.3139 16.4008 19.523 16.2016 19.6834 15.9653C19.8439 15.729 19.9518 15.461 20 15.1795C20.0386 14.8956 20.0157 14.6067 19.9329 14.3323C19.85 14.058 19.7092 13.8047 19.52 13.5895C19.2641 13.2786 18.9155 13.0576 18.5252 12.9587C18.1349 12.8597 17.7231 12.8881 17.35 13.0395C17.199 13.0922 17.0375 13.1079 16.8792 13.0853C16.7208 13.0627 16.5702 13.0024 16.44 12.9095C16.3094 12.8165 16.203 12.6935 16.1299 12.5508C16.0568 12.408 16.0191 12.2499 16.02 12.0895V8.90951H12.82C12.6557 8.91883 12.4915 8.88742 12.3422 8.81809C12.1929 8.74876 12.0631 8.64365 11.9641 8.51207C11.8652 8.3805 11.8003 8.22654 11.7752 8.06386C11.75 7.90118 11.7654 7.73481 11.82 7.57951C11.9363 7.29452 11.9762 6.98414 11.9359 6.679C11.8955 6.37386 11.7763 6.08451 11.59 5.83951C11.4424 5.58868 11.2402 5.37428 10.9984 5.2122C10.7566 5.05013 10.4815 4.94453 10.1934 4.90324C9.90527 4.86194 9.61155 4.886 9.33399 4.97364C9.05644 5.06128 8.80216 5.21025 8.59 5.40951C8.39298 5.60493 8.23877 5.8392 8.1372 6.09744C8.03562 6.35568 7.9889 6.63224 8 6.90951C8.00232 7.13888 8.04637 7.36592 8.13 7.57951C8.18287 7.73073 8.19863 7.89244 8.17597 8.05102C8.1533 8.2096 8.09287 8.36041 7.99976 8.49077C7.90665 8.62112 7.78358 8.7272 7.64093 8.80007C7.49827 8.87294 7.34019 8.91048 7.18 8.90951H5Z"
+                                                                                fill="#88C701" />
+                                                                </svg>
+                                                        </span>
+                                                        <h2 class="ff-liber fw-medium fs_20 pt-4 mt-1">Creative
+                                                                Solutions</h2>
+                                                        <p class="ff-pop fw-normal fs_16 pt_11">Landscape Design & Build
+                                                        </p>
+                                                </div>
+                                        </div>
+
+                                        <div data-aos="fade-down" data-aos-duration="1500"
+                                                class="col-12 col-md-6 col-lg-4 pt-md-0 pt-4 ">
+                                                <div class="box_1 mx-auto mx-md-0 transition_5">
+                                                        <span class="crcle cursor transition_5">
+                                                                <svg width="24" height="24" viewBox="0 0 24 24"
+                                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M6 9C6 10.5913 6.63214 12.1174 7.75736 13.2426C8.88258 14.3679 10.4087 15 12 15C13.5913 15 15.1174 14.3679 16.2426 13.2426C17.3679 12.1174 18 10.5913 18 9C18 7.4087 17.3679 5.88258 16.2426 4.75736C15.1174 3.63214 13.5913 3 12 3C10.4087 3 8.88258 3.63214 7.75736 4.75736C6.63214 5.88258 6 7.4087 6 9Z"
+                                                                                stroke="#88C701" stroke-width="2"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                        <path d="M12.0003 15L15.4003 20.89L16.9983 17.657L20.5963 17.889L17.1963 12M6.80234 12L3.40234 17.89L7.00034 17.657L8.59834 20.889L11.9983 15"
+                                                                                stroke="#88C701" stroke-width="2"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                </svg>
+                                                        </span>
+                                                        <h2 class="ff-liber fw-medium fs_20 pt-4 mt-1">Customer Service
+                                                        </h2>
+                                                        <p class="ff-pop fw-normal fs_16 pt_11">Our team is on call to
+                                                                deliver
+                                                                excellence to our
+                                                                clients</p>
+                                                </div>
+                                        </div>
+
+                                        <div data-aos="fade-left" data-aos-duration="1500"
+                                                class="col-12 col-md-6 col-lg-4 pt-md-0 pt-4 ">
+                                                <div class="box_1 mx-auto mx-lg-0 transition_5">
+                                                        <span class="crcle cursor transition_5">
+                                                                <svg width="24" height="25" viewBox="0 0 24 25"
+                                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M11.25 2.40955C10.0163 2.40955 9 3.4258 9 4.65955V5.8078L8.90625 5.5033C8.5485 4.3228 7.27425 3.64555 6.09375 4.0033C4.91325 4.36105 4.236 5.6353 4.59375 6.8158L6.53925 13.1443C6.39825 13.1998 6.24675 13.2643 6.09375 13.3543C5.46675 13.7293 4.758 14.4883 4.5465 15.6988C4.389 16.595 4.5615 17.3833 4.6875 17.8078V17.8318L5.27325 19.7068C5.60417 20.779 6.26981 21.717 7.17262 22.3833C8.07542 23.0496 9.16792 23.4093 10.29 23.4095H14.25C17.1413 23.4095 19.5 21.0508 19.5 18.1595V10.5658C19.494 10.5425 19.485 10.5185 19.4768 10.4953C19.4093 9.66955 18.9083 8.89855 18.0938 8.5738C17.5283 8.34805 16.9335 8.3803 16.4063 8.59705C16.1608 8.12043 15.7538 7.74665 15.258 7.54255C14.977 7.43144 14.6764 7.37828 14.3743 7.38628C14.0721 7.39427 13.7748 7.46324 13.5 7.58905V4.65955C13.5 3.4258 12.4838 2.40955 11.25 2.40955ZM11.25 3.90955C11.6745 3.90955 12 4.23505 12 4.65955V9.60505L11.2268 11.5738C11.118 11.8499 11.0622 12.144 11.0625 12.4408L7.992 12.839L6.0465 6.3703C6.01567 6.27644 6.00401 6.17734 6.01223 6.07889C6.02044 5.98043 6.04836 5.88464 6.09432 5.79719C6.14029 5.70974 6.20336 5.63242 6.27979 5.56982C6.35622 5.50722 6.44446 5.46062 6.53925 5.4328C6.9435 5.3098 7.35375 5.54455 7.47675 5.9488L9.02325 11.081L9.867 10.8238H10.5V4.65955C10.5 4.23505 10.8255 3.90955 11.25 3.90955ZM14.391 8.8783C14.487 8.8753 14.5988 8.8873 14.6955 8.92555C14.7884 8.96172 14.8731 9.01603 14.9447 9.08532C15.0164 9.15461 15.0735 9.23749 15.1127 9.3291C15.152 9.42071 15.1726 9.51923 15.1733 9.61889C15.174 9.71856 15.1549 9.81736 15.117 9.90955L14.3205 11.9015V11.9248L14.0153 12.6988C14.001 12.7393 13.9658 12.7573 13.9455 12.7925C13.5574 12.4858 13.0803 12.3132 12.5858 12.3005C12.5948 12.2443 12.5858 12.1918 12.6098 12.1355L13.7348 9.34705C13.8518 9.0508 14.1008 8.8843 14.391 8.8783ZM17.226 9.90955C17.3265 9.90955 17.4315 9.91855 17.5313 9.9568C17.6687 10.0097 17.787 10.1028 17.8707 10.2241C17.9543 10.3453 17.9994 10.489 18 10.6363V10.6595C18 10.7503 17.988 10.85 17.9528 10.9408L17.109 13.0265C17.0729 13.1195 17.0186 13.2043 16.9494 13.276C16.8801 13.3477 16.7973 13.4049 16.7056 13.4442C16.614 13.4835 16.5155 13.5042 16.4158 13.505C16.3161 13.5058 16.2172 13.4867 16.125 13.4488C15.7328 13.2905 15.5685 12.8563 15.7268 12.464L16.5233 10.472C16.5353 10.442 16.5353 10.4075 16.5473 10.3783C16.6192 10.1908 16.762 10.0392 16.9448 9.95605C17.0347 9.92104 17.131 9.9052 17.2275 9.90955H17.226ZM12.375 13.7765C12.4674 13.7537 12.5634 13.7496 12.6574 13.7645C12.7514 13.7794 12.8415 13.8129 12.9223 13.8632C13.0031 13.9135 13.073 13.9794 13.128 14.0571C13.1829 14.1349 13.2216 14.2228 13.242 14.3158C13.3005 14.5588 13.2683 14.6818 13.1955 14.8078C13.122 14.9338 12.9668 15.089 12.633 15.2068L9 16.1443C8.89079 16.1734 8.78956 16.2268 8.70389 16.3005C8.61821 16.3742 8.55029 16.4663 8.50522 16.5699C8.46014 16.6735 8.43907 16.786 8.44358 16.899C8.44809 17.0119 8.47806 17.1223 8.53125 17.222L9.21075 18.464C9.25827 18.5505 9.32241 18.6266 9.3995 18.6882C9.47658 18.7497 9.56507 18.7954 9.65988 18.8226C9.75469 18.8498 9.85394 18.8579 9.95191 18.8466C10.0499 18.8353 10.1447 18.8047 10.2308 18.7565C10.317 18.709 10.393 18.6449 10.4544 18.568C10.5158 18.491 10.5614 18.4027 10.5886 18.3081C10.6157 18.2134 10.624 18.1144 10.6127 18.0165C10.6015 17.9187 10.5711 17.8241 10.5233 17.738L10.3125 17.363L13.0785 16.6355C13.101 16.6303 13.125 16.6213 13.1483 16.613C13.7288 16.4105 14.1945 16.0648 14.4848 15.5818C14.7178 15.1862 14.8165 14.7257 14.766 14.2693C14.985 14.5063 15.2663 14.7028 15.5858 14.8318C15.9921 14.9962 16.4379 15.0371 16.8673 14.9493C17.2968 14.8615 17.6908 14.649 18 14.3383V18.1595C18 20.2393 16.3298 21.9095 14.25 21.9095H10.2893C8.63925 21.9095 7.1895 20.837 6.7035 19.2613L6.141 17.3863C6.07875 17.1838 5.95575 16.475 6.0465 15.956C6.1875 15.1505 6.53925 14.84 6.867 14.6435C7.1955 14.4478 7.4295 14.4335 7.4295 14.4335H7.47675L12.3045 13.7998C12.3285 13.7945 12.3518 13.7848 12.375 13.7765Z"
+                                                                                fill="#88C701" />
+                                                                </svg>
+
+                                                                </svg>
+                                                        </span>
+                                                        <h2 class="ff-liber fw-medium fs_20 pt-4 mt-1">Peace of mind
+                                                        </h2>
+                                                        <p class="ff-pop fw-normal fs_16 pt_11">Proven Proactive
+                                                                Approach</p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+
+                <section class="py_124 overflow-hidden">
+                        <div class="container">
+                                <div class="row">
+                                        <div data-aos="fade-right" data-aos-duration="1500"
+                                                class="col-lg-6 col-12 d-flex justify-content-center">
+                                                <img class="w-100 mw_485 cursor"
+                                                        src="/assets/img/png/chicago/Homepage  updated 2/1/Group 19.png"
+                                                        alt="">
+                                        </div>
+                                        <div data-aos="fade-left" data-aos-duration="1500"
+                                                class="col-lg-6 col-12 pt-lg-5 pt-0 mt-lg-4 pt-3">
+                                                <h2 class="ff-libre  fw-medium fs_36">Evergreen Landscapes is a
+                                                        full-service
+                                                        landscaping company servicing the
+                                                        <span class="text_green fst-italic">Chicago</span> land area.
+                                                </h2>
+                                                <p class="ff-pop fw-normal fs_16">Our team is dedicated to giving our
+                                                        clients
+                                                        the very best of landscaping in a
+                                                        safe and professional manner.</p>
+                                                <p class="ff-pop fw-normal fs_16">Founded in 2012, Evergreen Landscapes
+                                                        (formerly David's Lawn Care) has come a
+                                                        long way from its beginnings. When we
+                                                        first started out, our passion for providing quality and
+                                                        affordable
+                                                        services to our valuable clients drove us to take
+                                                        action and gave us the momentum to turn hard work and
+                                                        inspiration into a
+                                                        growing landscaping company. We now serve
+                                                        customers all over the Chicago land area and are thrilled to be
+                                                        a part
+                                                        of the landscaping industry.</p>
+                                                <p class="ff-pop fw-normal fs_16">We hope you enjoy our services as much
+                                                        as
+                                                        we
+                                                        enjoy offering them to you. If
+                                                        you have any questions or comments, please
+                                                        don't hesitate to contact us.</p>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+
+                <section class="overflow-hidden mb-5" id="our_services">
+                        <div class="container">
+                                <h2 data-aos="fade-down" data-aos-duration="1500"
+                                        class="ff-libre fw-normal fs_36 text-center pb_37">Our Services</h2>
+                                <div class="row justify-content-center align-items-center">
+
+                                        <div data-aos="fade-right" data-aos-duration="1500"
+                                                class="col-xl-4 col-lg-6 col-12  ">
+                                                <div class="position-relative cardimg">
+
+                                                        <img class="cursor w-100"
+                                                                src="/assets/img/png/shadow-1/Homepage  updated 2/1/Frame 36.png"
+                                                                alt="">
+
+                                                        <h2
+                                                                class="d-flex ff-libre fw-normal pos_heading fs_22 text-white">
+                                                                Commercial
+                                                                Property Services
+                                                        </h2>
+
+                                                        <div class="shadow_black cursor transition_5 pos_abs_shadow">
+                                                                <div
+                                                                        class="d-flex h-100 justify-content-center align-items-center flex-column">
+                                                                        <h2
+                                                                                class="ff-libre fw-normal fs_22 pt-4 text-white pb-2 d-flex justify-content-center">
+                                                                                Commercial Property</h2>
+                                                                        <div class="text-center">
+                                                                                <p
+                                                                                        class="ff-pop fw-normal fs_16 text-white ">
+                                                                                        Snow
+                                                                                        Shoveling</p>
+                                                                                <p
+                                                                                        class="ff-pop fw-normal fs_16 text-white ">
+                                                                                        Snow
+                                                                                        Plowing</p>
+                                                                                <p
+                                                                                        class="ff-pop fw-normal fs_16 text-white ">
+                                                                                        Cleaning
+                                                                                        of Walkways & </p>
+                                                                                <p
+                                                                                        class="ff-pop fw-normal fs_16 text-white ">
+                                                                                        Sidewalks
+                                                                                        Ice Melt Applications</p>
+
+                                                                        </div>
+                                                                </div>
+
+
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                        <div data-aos="fade-down" data-aos-duration="1500"
+                                                class="col-xl-4 col-lg-6 col-12 mt-lg-0 mt-4">
+                                                <div class="position-relative cardimg">
+                                                        <img class="cursor w-100"
+                                                                src="/assets/img/png/shadow-2/Homepage  updated 2/1/Frame 37.png"
+                                                                alt="">
+                                                        <h2
+                                                                class="d-flex ff-libre fw-normal pos_heading fs_22 text-white">
+                                                                Residential Property Services
+                                                        </h2>
+
+                                                        <div class="shadow_black cursor transition_5 pos_abs_shadow">
+                                                                <div
+                                                                        class="d-flex h-100 justify-content-center align-items-center flex-column">
+
+                                                                        <h2
+                                                                                class="ff-libre fw-normal fs_22 pt-4 text-white pb-2 d-flex justify-content-center">
+                                                                                Residential Property</h2>
+                                                                        <div class="text-center">
+                                                                                <p
+                                                                                        class="ff-pop fw-normal fs_16 text-white ">
+                                                                                        Snow
+                                                                                        Shoveling</p>
+                                                                                <p
+                                                                                        class="ff-pop fw-normal fs_16 text-white ">
+                                                                                        Snow
+                                                                                        Plowing</p>
+                                                                                <p
+                                                                                        class="ff-pop fw-normal fs_16 text-white ">
+                                                                                        Cleaning
+                                                                                        of Walkways & </p>
+                                                                                <p
+                                                                                        class="ff-pop fw-normal fs_16 text-white ">
+                                                                                        Sidewalks
+                                                                                        Ice Melt Applications</p>
+
+                                                                        </div>
+                                                                </div>
+
+
+                                                        </div>
+                                                </div>
+
+                                        </div>
+
+                                        <div data-aos="fade-left" data-aos-duration="1500"
+                                                class="col-xl-4 col-lg-6 col-12 mt-xl-0 mt-4">
+                                                <div class="position-relative cardimg">
+                                                        <img class="h_4 cursor w-100"
+                                                                src="/assets/img/png/shadow-3/Homepage  updated 2/1/Frame 38.png"
+                                                                alt="">
+                                                        <h2
+                                                                class="d-flex ff-libre fw-normal pos_heading fs_22 text-white">
+                                                                Winter Snow Plowing services
+                                                        </h2>
+
+                                                        <div class="shadow_black cursor transition_5 pos_abs_shadow">
+                                                                <div
+                                                                        class="d-flex h-100 justify-content-center align-items-center flex-column">
+                                                                        <h2
+                                                                                class="ff-libre fw-normal fs_22 pt-4 text-white pb-2 d-flex justify-content-center">
+                                                                                Winter services</h2>
+                                                                        <div class="text-center">
+                                                                                <p
+                                                                                        class="ff-pop fw-normal fs_16 text-white">
+                                                                                        Snow
+                                                                                        Shoveling</p>
+                                                                                <p
+                                                                                        class="ff-pop fw-normal fs_16 text-white">
+                                                                                        Snow
+                                                                                        Plowing</p>
+                                                                                <p
+                                                                                        class="ff-pop fw-normal fs_16 text-white">
+                                                                                        Cleaning
+                                                                                        of Walkways & </p>
+                                                                                <p
+                                                                                        class="ff-pop fw-normal fs_16 text-white">
+                                                                                        Sidewalks
+                                                                                        Ice Melt Applications</p>
+
+                                                                        </div>
+                                                                </div>
+
+
+                                                        </div>
+                                                </div>
 
                                         </div>
                                 </div>
                         </div>
-                </nav>
+                </section>
 
-                <!--============= slider Start =============-->
-
-                <section class="flex-grow-1">
-                        <div class="slider_1">
-
-                                <div class="slider-1 curor d-flex align-items-end">
-                                        <div class="container ps-md-5 ps-3 pb-5">
-                                                <h2 data-aos="fade-right" data-aos-duration="1500"
-                                                        class="ff-libre fw-bold fs_40 fst-italict text-white ">Ut
-                                                        pretium
-                                                        egestas
-                                                        <span class="d-block">sagittis <span class="fst-italic">
-                                                                        convallis</span></span>
-                                                </h2>
-                                                <p data-aos="fade-right" data-aos-duration="1500"
-                                                        class="ff-pop fw-normal fs_16 text-white">Platea neque amet a
-                                                        dolor.
-                                                        Libero
-                                                        malesuada pellentesque ultrices
-                                                        <span class="d-block">urna pellentesque. Varius in est
-                                                                porttitor
-                                                                pellentesque.</span>
-                                                </p>
-                                                <button class="ff-pop fw-medium fs_16 common_btn transition_5">Request
-                                                        a
-                                                        quote</button>
+                <section id="gallery">
+                        <h2 data-aos="fade-down" data-aos-duration="1500"
+                                class="ff-libre fw-normal fs_36 text-center pb-5 pt_111">Gallery</h2>
+                        <div class="">
+                                <div class="d-flex slider_2  gap_16 gap-5 slider_2">
+                                        <div class="mx-3">
+                                                <span class="d-flex justify-content-center"><img class="-mx-2"
+                                                                src="./assets/img/png/g-half-slider.png"
+                                                                alt="Man_excercise_img"></span>
                                         </div>
-                                </div>
-
-                                <div class="slider-2 cursor  d-flex align-items-end">
-                                        <div class="container ps-md-5 ps-3 pb-5">
-                                                <h2 data-aos="fade-right" data-aos-duration="1500"
-                                                        class="ff-libre fw-bold fs_40 fst-italict text-white ">Sit
-                                                        amet in
-                                                        <span class="d-block">vulputate ultrices</span>
-                                                </h2>
-                                                <p data-aos="fade-right" data-aos-duration="1500"
-                                                        class="ff-pop fw-normal fs_16 text-white">Platea neque amet a
-                                                        dolor. Libero malesuada pellentesque ultrices
-                                                        <span class="d-block">urna
-                                                                pellentesque. Varius in est porttitor
-                                                                pellentesque.</span>
-                                                </p>
-                                                <button class="ff-pop fw-medium fs_16 common_btn transition_5 ">Request
-                                                        a
-                                                        quote</button>
+                                        <div class="mx-3">
+                                                <span class="d-flex justify-content-center"><img class="-mx-2"
+                                                                src="./assets/img/png/g-orange/Homepage  updated 2/1/Frame 52.png"
+                                                                alt="Man_excercise_img"></span>
+                                        </div>
+                                        <div class="mx-3">
+                                                <span class="d-flex justify-content-center"><img class="-mx-2"
+                                                                src="./assets/img/png/g-blackcar/Homepage  updated 2/1/Frame 51.png"
+                                                                alt="Man_excercise_img"></span>
+                                        </div>
+                                        <div class="mx-3">
+                                                <span class="d-flex justify-content-center"><img class="-mx-2"
+                                                                src="./assets/img/png/home/Homepage  updated 2/1/Frame 14.png"
+                                                                alt="Man_excercise_img"></span>
+                                        </div>
+                                        <div class="mx-3">
+                                                <span class="d-flex justify-content-center"><img class="-mx-2"
+                                                                src="./assets/img/png/home/Homepage  updated 2/1/Frame 14.png"
+                                                                alt="Man_excercise_img"></span>
                                         </div>
 
-                                </div>
-
-                                <div class="slider-3 cursor d-flex align-items-end">
-                                        <div class="container ps-md-5 ps-3 pb-5">
-                                                <h2 data-aos="fade-right" data-aos-duration="1500"
-                                                        class="ff-libre fw-bold fs_40 fst-italict text-white ">Donec
-                                                        orci mauris
-                                                        <span class="d-block">in enim viverra</span>
-                                                </h2>
-                                                <p data-aos="fade-right" data-aos-duration="1500"
-                                                        class="ff-pop fw-normal fs_16 text-white">Platea neque amet a
-                                                        dolor.
-                                                        Libero
-                                                        malesuada pellentesque ultrices
-                                                        <span class="d-block">urna pellentesque. Varius in est
-                                                                porttitor
-                                                                pellentesque.</span>
-                                                </p>
-                                                <button class="ff-pop fw-medium fs_16 common_btn transition_5 ">Request
-                                                        a
-                                                        quote</button>
-                                        </div>
-
-                                </div>
-
-                                <div class="slider-2 cursor d-flex align-items-end">
-                                        <div class="container ps-md-5 ps-3 pb-5">
-                                                <h2 data-aos="fade-right" data-aos-duration="1500"
-                                                        class="ff-libre fw-bold fs_40 fst-italict text-white ">Sit
-                                                        amet in
-                                                        <span class="d-block">vulputate ultrices</span>
-                                                </h2>
-                                                <p data-aos="fade-right" data-aos-duration="1500"
-                                                        class="ff-pop fw-normal fs_16 text-white">Platea neque amet a
-                                                        dolor.
-                                                        Libero
-                                                        malesuada pellentesque ultrices
-                                                        <span class="d-block">urna pellentesque. Varius in est
-                                                                porttitor
-                                                                pellentesque.</span>
-                                                </p>
-                                                <button class="ff-pop fw-medium fs_16 common_btn transition_5 ">Request
-                                                        a
-                                                        quote</button>
-                                        </div>
 
                                 </div>
                         </div>
                 </section>
-                <!--============= slider End =============-->
-        </header>
 
-        <section class="py-md-5 py-0 my-md-5 my-4">
-                <div data-aos="fade-down" data-aos-duration="1500"
-                        class="d-flex justify-content-center align-items-center">
-                        <h2 class="ff-libre fw-medium fs_36 fst-italic text-center text_change mb-0 transition_5">
-                                Licensed </h2>
-                        <p class="ff-libre fw-medium fs_36 text_green mb-0 ">-</p>
-                        <h2 class="ff-libre fw-medium fs_36 fst-italic text-center text_change mb-0 transition_5">Bonded
-                        </h2>
-                        <p class="ff-libre fw-medium fs_36 text_green mb-0">-</p>
-                        <h2 class="ff-libre fw-medium fs_36 fst-italic text-center text_change mb-0 transition_5">
-                                Insured </h2>
-                </div>
-
-        </section>
-
-        <section class="green_img" id="about_us">
-                <div class="container py_76">
-                        <div class="d-flex justify-content-center">
-                                <h2 data-aos="fade-down" data-aos-duration="1500"
-                                        class="ff-libre fw-medium fs_36  mw_476 text-center">Why <span
-                                                class="text_green fst-italic"> customers
-                                                choose
-                                        </span>
-                                        Evergreen Landscapes LLC</h2>
-                        </div>
-                        <div class="row pt_44">
-                                <div data-aos="fade-right" data-aos-duration="1500" class="col-12 col-md-6 col-lg-4 ">
-                                        <div class="box_1 mx-auto mx-md-0 transition_5">
-                                                <span class="crcle cursor transition_5">
-                                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M17 22.9095H5C4.20435 22.9095 3.44129 22.5934 2.87868 22.0308C2.31607 21.4682 2 20.7052 2 19.9095V9.90951C2 9.11386 2.31607 8.3508 2.87868 7.78819C3.44129 7.22558 4.20435 6.90951 5 6.90951H6C6.01682 6.06215 6.30235 5.24203 6.81541 4.56744C7.32848 3.89285 8.04255 3.39866 8.85464 3.15614C9.66673 2.91363 10.5349 2.93533 11.3338 3.21811C12.1328 3.50089 12.8213 4.03013 13.3 4.72951C13.7484 5.36866 13.9925 6.12877 14 6.90951H17C17.2652 6.90951 17.5196 7.01487 17.7071 7.2024C17.8946 7.38994 18 7.64429 18 7.90951V10.9095C18.8474 10.9263 19.6675 11.2119 20.3421 11.7249C21.0167 12.238 21.5109 12.9521 21.7534 13.7641C21.9959 14.5762 21.9742 15.4444 21.6914 16.2433C21.4086 17.0423 20.8794 17.7308 20.18 18.2095C19.5409 18.658 18.7807 18.902 18 18.9095V21.9095C18 22.1747 17.8946 22.4291 17.7071 22.6166C17.5196 22.8042 17.2652 22.9095 17 22.9095ZM5 8.90951C4.73478 8.90951 4.48043 9.01487 4.29289 9.2024C4.10536 9.38994 4 9.64429 4 9.90951V19.9095C4 20.1747 4.10536 20.4291 4.29289 20.6166C4.48043 20.8042 4.73478 20.9095 5 20.9095H16V17.7295C15.9991 17.5692 16.0368 17.411 16.1099 17.2683C16.183 17.1256 16.2894 17.0025 16.42 16.9095C16.5502 16.8166 16.7008 16.7564 16.8592 16.7338C17.0175 16.7111 17.179 16.7268 17.33 16.7795C17.615 16.8958 17.9254 16.9357 18.2305 16.8954C18.5357 16.855 18.825 16.7358 19.07 16.5495C19.3139 16.4008 19.523 16.2016 19.6834 15.9653C19.8439 15.729 19.9518 15.461 20 15.1795C20.0386 14.8956 20.0157 14.6067 19.9329 14.3323C19.85 14.058 19.7092 13.8047 19.52 13.5895C19.2641 13.2786 18.9155 13.0576 18.5252 12.9587C18.1349 12.8597 17.7231 12.8881 17.35 13.0395C17.199 13.0922 17.0375 13.1079 16.8792 13.0853C16.7208 13.0627 16.5702 13.0024 16.44 12.9095C16.3094 12.8165 16.203 12.6935 16.1299 12.5508C16.0568 12.408 16.0191 12.2499 16.02 12.0895V8.90951H12.82C12.6557 8.91883 12.4915 8.88742 12.3422 8.81809C12.1929 8.74876 12.0631 8.64365 11.9641 8.51207C11.8652 8.3805 11.8003 8.22654 11.7752 8.06386C11.75 7.90118 11.7654 7.73481 11.82 7.57951C11.9363 7.29452 11.9762 6.98414 11.9359 6.679C11.8955 6.37386 11.7763 6.08451 11.59 5.83951C11.4424 5.58868 11.2402 5.37428 10.9984 5.2122C10.7566 5.05013 10.4815 4.94453 10.1934 4.90324C9.90527 4.86194 9.61155 4.886 9.33399 4.97364C9.05644 5.06128 8.80216 5.21025 8.59 5.40951C8.39298 5.60493 8.23877 5.8392 8.1372 6.09744C8.03562 6.35568 7.9889 6.63224 8 6.90951C8.00232 7.13888 8.04637 7.36592 8.13 7.57951C8.18287 7.73073 8.19863 7.89244 8.17597 8.05102C8.1533 8.2096 8.09287 8.36041 7.99976 8.49077C7.90665 8.62112 7.78358 8.7272 7.64093 8.80007C7.49827 8.87294 7.34019 8.91048 7.18 8.90951H5Z"
-                                                                        fill="#88C701" />
-                                                        </svg>
-                                                </span>
-                                                <h2 class="ff-liber fw-medium fs_20 pt-4 mt-1">Creative Solutions</h2>
-                                                <p class="ff-pop fw-normal fs_16 pt_11">Landscape Design & Build</p>
+                <section>
+                        <div class="">
+                                <div class="d-flex slider_3 mt-4 gap_16 gap-5 slider_2">
+                                        <div class="mx-3">
+                                                <span class="d-flex justify-content-center"><img class="-mx-2"
+                                                                src="./assets/img/png/home/Homepage  updated 2/1/Frame 14.png"
+                                                                alt="Man_excercise_img"></span>
                                         </div>
-                                </div>
-
-                                <div data-aos="fade-down" data-aos-duration="1500"
-                                        class="col-12 col-md-6 col-lg-4 pt-md-0 pt-4 ">
-                                        <div class="box_1 mx-auto mx-md-0 transition_5">
-                                                <span class="crcle cursor transition_5">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M6 9C6 10.5913 6.63214 12.1174 7.75736 13.2426C8.88258 14.3679 10.4087 15 12 15C13.5913 15 15.1174 14.3679 16.2426 13.2426C17.3679 12.1174 18 10.5913 18 9C18 7.4087 17.3679 5.88258 16.2426 4.75736C15.1174 3.63214 13.5913 3 12 3C10.4087 3 8.88258 3.63214 7.75736 4.75736C6.63214 5.88258 6 7.4087 6 9Z"
-                                                                        stroke="#88C701" stroke-width="2"
-                                                                        stroke-linecap="round"
-                                                                        stroke-linejoin="round" />
-                                                                <path d="M12.0003 15L15.4003 20.89L16.9983 17.657L20.5963 17.889L17.1963 12M6.80234 12L3.40234 17.89L7.00034 17.657L8.59834 20.889L11.9983 15"
-                                                                        stroke="#88C701" stroke-width="2"
-                                                                        stroke-linecap="round"
-                                                                        stroke-linejoin="round" />
-                                                        </svg>
-                                                </span>
-                                                <h2 class="ff-liber fw-medium fs_20 pt-4 mt-1">Customer Service</h2>
-                                                <p class="ff-pop fw-normal fs_16 pt_11">Our team is on call to deliver
-                                                        excellence to our
-                                                        clients</p>
+                                        <div class="mx-3">
+                                                <span class="d-flex justify-content-center"><img class="-mx-2"
+                                                                src="./assets/img/png/g-orange/Homepage  updated 2/1/Frame 52.png"
+                                                                alt="Man_excercise_img"></span>
                                         </div>
-                                </div>
+                                        <div class="mx-3">
+                                                <span class="d-flex justify-content-center"><img class="-mx-2"
+                                                                src="./assets/img/png/g-whitecar/Homepage  updated 2/1/Frame 48.png"
+                                                                alt="Man_excercise_img"></span>
+                                        </div>
+                                        <div class="mx-3">
+                                                <span class="d-flex justify-content-center"><img class="-mx-2"
+                                                                src="./assets/img/png/g-blackcar/Homepage  updated 2/1/Frame 51.png"
+                                                                alt="Man_excercise_img"></span>
 
-                                <div data-aos="fade-left" data-aos-duration="1500"
-                                        class="col-12 col-md-6 col-lg-4 pt-md-0 pt-4 ">
-                                        <div class="box_1 mx-auto mx-lg-0 transition_5">
-                                                <span class="crcle cursor transition_5">
-                                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M11.25 2.40955C10.0163 2.40955 9 3.4258 9 4.65955V5.8078L8.90625 5.5033C8.5485 4.3228 7.27425 3.64555 6.09375 4.0033C4.91325 4.36105 4.236 5.6353 4.59375 6.8158L6.53925 13.1443C6.39825 13.1998 6.24675 13.2643 6.09375 13.3543C5.46675 13.7293 4.758 14.4883 4.5465 15.6988C4.389 16.595 4.5615 17.3833 4.6875 17.8078V17.8318L5.27325 19.7068C5.60417 20.779 6.26981 21.717 7.17262 22.3833C8.07542 23.0496 9.16792 23.4093 10.29 23.4095H14.25C17.1413 23.4095 19.5 21.0508 19.5 18.1595V10.5658C19.494 10.5425 19.485 10.5185 19.4768 10.4953C19.4093 9.66955 18.9083 8.89855 18.0938 8.5738C17.5283 8.34805 16.9335 8.3803 16.4063 8.59705C16.1608 8.12043 15.7538 7.74665 15.258 7.54255C14.977 7.43144 14.6764 7.37828 14.3743 7.38628C14.0721 7.39427 13.7748 7.46324 13.5 7.58905V4.65955C13.5 3.4258 12.4838 2.40955 11.25 2.40955ZM11.25 3.90955C11.6745 3.90955 12 4.23505 12 4.65955V9.60505L11.2268 11.5738C11.118 11.8499 11.0622 12.144 11.0625 12.4408L7.992 12.839L6.0465 6.3703C6.01567 6.27644 6.00401 6.17734 6.01223 6.07889C6.02044 5.98043 6.04836 5.88464 6.09432 5.79719C6.14029 5.70974 6.20336 5.63242 6.27979 5.56982C6.35622 5.50722 6.44446 5.46062 6.53925 5.4328C6.9435 5.3098 7.35375 5.54455 7.47675 5.9488L9.02325 11.081L9.867 10.8238H10.5V4.65955C10.5 4.23505 10.8255 3.90955 11.25 3.90955ZM14.391 8.8783C14.487 8.8753 14.5988 8.8873 14.6955 8.92555C14.7884 8.96172 14.8731 9.01603 14.9447 9.08532C15.0164 9.15461 15.0735 9.23749 15.1127 9.3291C15.152 9.42071 15.1726 9.51923 15.1733 9.61889C15.174 9.71856 15.1549 9.81736 15.117 9.90955L14.3205 11.9015V11.9248L14.0153 12.6988C14.001 12.7393 13.9658 12.7573 13.9455 12.7925C13.5574 12.4858 13.0803 12.3132 12.5858 12.3005C12.5948 12.2443 12.5858 12.1918 12.6098 12.1355L13.7348 9.34705C13.8518 9.0508 14.1008 8.8843 14.391 8.8783ZM17.226 9.90955C17.3265 9.90955 17.4315 9.91855 17.5313 9.9568C17.6687 10.0097 17.787 10.1028 17.8707 10.2241C17.9543 10.3453 17.9994 10.489 18 10.6363V10.6595C18 10.7503 17.988 10.85 17.9528 10.9408L17.109 13.0265C17.0729 13.1195 17.0186 13.2043 16.9494 13.276C16.8801 13.3477 16.7973 13.4049 16.7056 13.4442C16.614 13.4835 16.5155 13.5042 16.4158 13.505C16.3161 13.5058 16.2172 13.4867 16.125 13.4488C15.7328 13.2905 15.5685 12.8563 15.7268 12.464L16.5233 10.472C16.5353 10.442 16.5353 10.4075 16.5473 10.3783C16.6192 10.1908 16.762 10.0392 16.9448 9.95605C17.0347 9.92104 17.131 9.9052 17.2275 9.90955H17.226ZM12.375 13.7765C12.4674 13.7537 12.5634 13.7496 12.6574 13.7645C12.7514 13.7794 12.8415 13.8129 12.9223 13.8632C13.0031 13.9135 13.073 13.9794 13.128 14.0571C13.1829 14.1349 13.2216 14.2228 13.242 14.3158C13.3005 14.5588 13.2683 14.6818 13.1955 14.8078C13.122 14.9338 12.9668 15.089 12.633 15.2068L9 16.1443C8.89079 16.1734 8.78956 16.2268 8.70389 16.3005C8.61821 16.3742 8.55029 16.4663 8.50522 16.5699C8.46014 16.6735 8.43907 16.786 8.44358 16.899C8.44809 17.0119 8.47806 17.1223 8.53125 17.222L9.21075 18.464C9.25827 18.5505 9.32241 18.6266 9.3995 18.6882C9.47658 18.7497 9.56507 18.7954 9.65988 18.8226C9.75469 18.8498 9.85394 18.8579 9.95191 18.8466C10.0499 18.8353 10.1447 18.8047 10.2308 18.7565C10.317 18.709 10.393 18.6449 10.4544 18.568C10.5158 18.491 10.5614 18.4027 10.5886 18.3081C10.6157 18.2134 10.624 18.1144 10.6127 18.0165C10.6015 17.9187 10.5711 17.8241 10.5233 17.738L10.3125 17.363L13.0785 16.6355C13.101 16.6303 13.125 16.6213 13.1483 16.613C13.7288 16.4105 14.1945 16.0648 14.4848 15.5818C14.7178 15.1862 14.8165 14.7257 14.766 14.2693C14.985 14.5063 15.2663 14.7028 15.5858 14.8318C15.9921 14.9962 16.4379 15.0371 16.8673 14.9493C17.2968 14.8615 17.6908 14.649 18 14.3383V18.1595C18 20.2393 16.3298 21.9095 14.25 21.9095H10.2893C8.63925 21.9095 7.1895 20.837 6.7035 19.2613L6.141 17.3863C6.07875 17.1838 5.95575 16.475 6.0465 15.956C6.1875 15.1505 6.53925 14.84 6.867 14.6435C7.1955 14.4478 7.4295 14.4335 7.4295 14.4335H7.47675L12.3045 13.7998C12.3285 13.7945 12.3518 13.7848 12.375 13.7765Z"
-                                                                        fill="#88C701" />
-                                                        </svg>
 
-                                                        </svg>
-                                                </span>
-                                                <h2 class="ff-liber fw-medium fs_20 pt-4 mt-1">Peace of mind</h2>
-                                                <p class="ff-pop fw-normal fs_16 pt_11">Proven Proactive Approach</p>
+
+                                        </div>
+                                        <div class="mx-3">
+                                                <span class="d-flex justify-content-center"><img class="-mx-2"
+                                                                src="./assets/img/png/g-blackcar/Homepage  updated 2/1/Frame 51.png"
+                                                                alt="Man_excercise_img"></span>
+
+
+
                                         </div>
                                 </div>
                         </div>
-                </div>
-        </section>
+                </section>
 
-        <section class="py_124 overflow-hidden">
-                <div class="container">
-                        <div class="row">
-                                <div data-aos="fade-right" data-aos-duration="1500"
-                                        class="col-lg-6 col-12 d-flex justify-content-center">
-                                        <img class="w-100 mw_485 cursor"
-                                                src="/assets/img/png/chicago/Homepage  updated 2/1/Group 19.png" alt="">
-                                </div>
-                                <div data-aos="fade-left" data-aos-duration="1500"
-                                        class="col-lg-6 col-12 pt-lg-5 pt-0 mt-lg-4 pt-3">
-                                        <h2 class="ff-libre  fw-medium fs_36">Evergreen Landscapes is a
-                                                full-service
-                                                landscaping company servicing the
-                                                <span class="text_green fst-italic">Chicago</span> land area.
+                <section class="overflow-hidden">
+                        <div class="pb-0 pb-md-5 pt-5 py-0 pe-4 ps-4">
+                                <div class="text-center">
+                                        <h2 data-aos="fade-down" data-aos-duration="1500"
+                                                class="ff-libre fw-medium fs_36 pb-4">
+                                                Check out our <span class="fw-normal text_green fst-italic">happy
+                                                        clients</span>
                                         </h2>
-                                        <p class="ff-pop fw-normal fs_16">Our team is dedicated to giving our
-                                                clients
-                                                the very best of landscaping in a
-                                                safe and professional manner.</p>
-                                        <p class="ff-pop fw-normal fs_16">Founded in 2012, Evergreen Landscapes
-                                                (formerly David's Lawn Care) has come a
-                                                long way from its beginnings. When we
-                                                first started out, our passion for providing quality and affordable
-                                                services to our valuable clients drove us to take
-                                                action and gave us the momentum to turn hard work and inspiration into a
-                                                growing landscaping company. We now serve
-                                                customers all over the Chicago land area and are thrilled to be a part
-                                                of the landscaping industry.</p>
-                                        <p class="ff-pop fw-normal fs_16">We hope you enjoy our services as much as
-                                                we
-                                                enjoy offering them to you. If
-                                                you have any questions or comments, please
-                                                don't hesitate to contact us.</p>
                                 </div>
-                        </div>
-                </div>
-        </section>
-
-        <section class="overflow-hidden mb-5" id="our_services">
-                <div class="container">
-                        <h2 data-aos="fade-down" data-aos-duration="1500"
-                                class="ff-libre fw-normal fs_36 text-center pb_37">Our Services</h2>
-                        <div class="row">
-
-                                <div data-aos="fade-right" data-aos-duration="1500" class="col-xl-4 col-lg-6 col-12">
-                                        <div class="position-relative cardimg">
-                                                <img class="cursor"
-                                                        src="/assets/img/png/shadow-1/Homepage  updated 2/1/Frame 36.png"
-                                                        alt="">
-                                                <h2 class="d-flex ff-libre fw-normal pos_heading fs_22 text-white">
-                                                        Commercial
-                                                        Property Services
-                                                </h2>
-
-                                                <div class="shadow_black cursor transition_5 pos_abs_shadow">
-                                                        <div class="pt-5 mt-5">
-                                                        </div>
-                                                        <h2
-                                                                class="ff-libre fw-normal fs_22 pt-4 text-white pb-2 d-flex justify-content-center">
-                                                                Commercial Property</h2>
-                                                        <div class="text-center">
-                                                                <p class="ff-pop fw-normal fs_16 text-white ">Snow
-                                                                        Shoveling</p>
-                                                                <p class="ff-pop fw-normal fs_16 text-white ">Snow
-                                                                        Plowing</p>
-                                                                <p class="ff-pop fw-normal fs_16 text-white ">Cleaning
-                                                                        of Walkways & </p>
-                                                                <p class="ff-pop fw-normal fs_16 text-white ">Sidewalks
-                                                                        Ice Melt Applications</p>
-
-                                                        </div>
-
-
-                                                </div>
-                                        </div>
-                                </div>
-
-                                <div data-aos="fade-down" data-aos-duration="1500"
-                                        class="col-xl-4 col-lg-6 col-12 mt-lg-0 mt-4">
-                                        <div class="position-relative cardimg">
-                                                <img class="cursor"
-                                                        src="/assets/img/png/shadow-2/Homepage  updated 2/1/Frame 37.png"
-                                                        alt="">
-                                                <h2 class="d-flex ff-libre fw-normal pos_heading fs_22 text-white">
-                                                        Residential Property Services
-                                                </h2>
-
-                                                <div class="shadow_black cursor transition_5 pos_abs_shadow">
-                                                        <div class="pt-5 mt-5">
-                                                        </div>
-                                                        <h2
-                                                                class="ff-libre fw-normal fs_22 pt-4 text-white pb-2 d-flex justify-content-center">
-                                                                Residential Property</h2>
-                                                        <div class="text-center">
-                                                                <p class="ff-pop fw-normal fs_16 text-white ">Snow
-                                                                        Shoveling</p>
-                                                                <p class="ff-pop fw-normal fs_16 text-white ">Snow
-                                                                        Plowing</p>
-                                                                <p class="ff-pop fw-normal fs_16 text-white ">Cleaning
-                                                                        of Walkways & </p>
-                                                                <p class="ff-pop fw-normal fs_16 text-white ">Sidewalks
-                                                                        Ice Melt Applications</p>
-
-                                                        </div>
-
-
+                                <div class="row pt-3">
+                                        <div data-aos="fade-right" data-aos-duration="1500"
+                                                class="col-lg-4 col-md-6 col-12 mb-md-0 mb-4">
+                                                <div class="box_clints">
+                                                        <img class="pb_1 cursor"
+                                                                src="/assets/img/svg/comas/Homepage  updated 2/1/Vector.svg"
+                                                                alt="">
+                                                        <p class="ff-pop fw-normal fs_16 fst-italic pt_11 mb-0 mw ">
+                                                                Evergreen
+                                                                provided high quality service in a timely manner for me.
+                                                                David
+                                                                was a pleasure to deal with, his honesty and
+                                                                customer service is unparalleled. If you want the job
+                                                                done
+                                                                right, use Evergreen!
+                                                        </p>
+                                                        <h2 class="ff-libre fw-normal fs_16 fst-italic pt_11 mb-0 ">E.
+                                                                B.</h2>
+                                                        <img class="cursor"
+                                                                src="/assets/img/svg/stars/Homepage  updated 2/1/Frame 7.svg"
+                                                                alt="">
                                                 </div>
                                         </div>
 
-                                </div>
-
-                                <div data-aos="fade-left" data-aos-duration="1500"
-                                        class="col-xl-4 col-lg-6 col-12 mt-xl-0 mt-4">
-                                        <div class="position-relative cardimg">
-                                                <img class="h_409 cursor "
-                                                        src="/assets/img/png/shadow-3/Homepage  updated 2/1/Frame 38.png"
-                                                        alt="">
-                                                <h2 class="d-flex ff-libre fw-normal pos_heading fs_22 text-white">
-                                                        Winter Snow Plowing services
-                                                </h2>
-
-                                                <div class="shadow_black cursor transition_5 pos_abs_shadow">
-                                                        <div class="pt-5 mt-5">
-                                                        </div>
-                                                        <h2
-                                                                class="ff-libre fw-normal fs_22 pt-4 text-white pb-2 d-flex justify-content-center">
-                                                                Winter services</h2>
-                                                        <div class="text-center">
-                                                                <p class="ff-pop fw-normal fs_16 text-white ">Snow
-                                                                        Shoveling</p>
-                                                                <p class="ff-pop fw-normal fs_16 text-white ">Snow
-                                                                        Plowing</p>
-                                                                <p class="ff-pop fw-normal fs_16 text-white ">Cleaning
-                                                                        of Walkways & </p>
-                                                                <p class="ff-pop fw-normal fs_16 text-white ">Sidewalks
-                                                                        Ice Melt Applications</p>
-
-                                                        </div>
-
-
-                                                </div>
-                                        </div>
-
-                                </div>
-                        </div>
-                </div>
-        </section>
-
-        <section id="gallery">
-                <h2 data-aos="fade-down" data-aos-duration="1500"
-                        class="ff-libre fw-normal fs_36 text-center pb-5 pt_111">Gallery</h2>
-                <div class="">
-                        <div class="d-flex slider_2  gap_16 gap-5 slider_2">
-                                <div class="mx-3">
-                                        <span class="d-flex justify-content-center"><img class="-mx-2"
-                                                        src="./assets/img/png/g-half-slider.png"
-                                                        alt="Man_excercise_img"></span>
-                                </div>
-                                <div class="mx-3">
-                                        <span class="d-flex justify-content-center"><img class="-mx-2"
-                                                        src="./assets/img/png/g-orange/Homepage  updated 2/1/Frame 52.png"
-                                                        alt="Man_excercise_img"></span>
-                                </div>
-                                <div class="mx-3">
-                                        <span class="d-flex justify-content-center"><img class="-mx-2"
-                                                        src="./assets/img/png/g-blackcar/Homepage  updated 2/1/Frame 51.png"
-                                                        alt="Man_excercise_img"></span>
-                                </div>
-                                <div class="mx-3">
-                                        <span class="d-flex justify-content-center"><img class="-mx-2"
-                                                        src="./assets/img/png/home/Homepage  updated 2/1/Frame 14.png"
-                                                        alt="Man_excercise_img"></span>
-                                </div>
-                                <div class="mx-3">
-                                        <span class="d-flex justify-content-center"><img class="-mx-2"
-                                                        src="./assets/img/png/home/Homepage  updated 2/1/Frame 14.png"
-                                                        alt="Man_excercise_img"></span>
-                                </div>
-
-
-                        </div>
-                </div>
-        </section>
-
-        <section>
-                <div class="">
-                        <div class="d-flex slider_3 mt-4 gap_16 gap-5 slider_2">
-                                <div class="mx-3">
-                                        <span class="d-flex justify-content-center"><img class="-mx-2"
-                                                        src="./assets/img/png/home/Homepage  updated 2/1/Frame 14.png"
-                                                        alt="Man_excercise_img"></span>
-                                </div>
-                                <div class="mx-3">
-                                        <span class="d-flex justify-content-center"><img class="-mx-2"
-                                                        src="./assets/img/png/g-orange/Homepage  updated 2/1/Frame 52.png"
-                                                        alt="Man_excercise_img"></span>
-                                </div>
-                                <div class="mx-3">
-                                        <span class="d-flex justify-content-center"><img class="-mx-2"
-                                                        src="./assets/img/png/g-whitecar/Homepage  updated 2/1/Frame 48.png"
-                                                        alt="Man_excercise_img"></span>
-                                </div>
-                                <div class="mx-3">
-                                        <span class="d-flex justify-content-center"><img class="-mx-2"
-                                                        src="./assets/img/png/g-blackcar/Homepage  updated 2/1/Frame 51.png"
-                                                        alt="Man_excercise_img"></span>
-
-
-
-                                </div>
-                                <div class="mx-3">
-                                        <span class="d-flex justify-content-center"><img class="-mx-2"
-                                                        src="./assets/img/png/g-blackcar/Homepage  updated 2/1/Frame 51.png"
-                                                        alt="Man_excercise_img"></span>
-
-
-
-                                </div>
-                        </div>
-                </div>
-        </section>
-
-        <section class="overflow-hidden">
-                <div class="py-5 pe-4 ps-4">
-                        <div class="text-center">
-                                <h2 data-aos="fade-down" data-aos-duration="1500" class="ff-libre fw-medium fs_36 pb-4">
-                                        Check out our <span class="fw-normal text_green fst-italic">happy clients</span>
-                                </h2>
-                        </div>
-                        <div class="row pt-3">
-                                <div data-aos="fade-right" data-aos-duration="1500"
-                                        class="col-lg-4 col-md-6 col-12 mb-md-0 mb-4">
-                                        <div class="box_clints">
-                                                <img class="pb_1 cursor"
-                                                        src="/assets/img/svg/comas/Homepage  updated 2/1/Vector.svg"
-                                                        alt="">
-                                                <p class="ff-pop fw-normal fs_16 fst-italic pt_11 mb-0 mw ">
-                                                        Evergreen
-                                                        provided high quality service in a timely manner for me.
-                                                        David
-                                                        was a pleasure to deal with, his honesty and
-                                                        customer service is unparalleled. If you want the job
-                                                        done
-                                                        right, use Evergreen!
-                                                </p>
-                                                <h2 class="ff-libre fw-normal fs_16 fst-italic pt_11 mb-0 ">E.
-                                                        B.</h2>
-                                                <img class="cursor"
-                                                        src="/assets/img/svg/stars/Homepage  updated 2/1/Frame 7.svg"
-                                                        alt="">
-                                        </div>
-                                </div>
-
-                                <div data-aos="fade-down" data-aos-duration="1500"
-                                        class="col-lg-4 col-md-6 col-12 mb-md-0 mb-4">
-                                        <div class="box_clints">
-                                                <img class="pb_1 cursor"
-                                                        src="/assets/img/svg/comas/Homepage  updated 2/1/Vector.svg"
-                                                        alt="">
-                                                <p class="ff-pop fw-normal fs_16 fst-italic pt_11 mb-0 ">
-                                                        It is quite clear that Dave truly cares about his
-                                                        clients and
-                                                        about the work he does for them. If you hire his
-                                                        service,
-                                                        your lawn care goals and ambitions will become is own,
-                                                        and he
-                                                        will ensure you are not just satisfied but thrilled.
-                                                </p>
-                                                <h2 class="ff-libre fw-normal fs_16 fst-italic pt_11 mb-0 ">S.
-                                                        K.</h2>
-                                                <img class="cursor"
-                                                        src="/assets/img/svg/stars/Homepage  updated 2/1/Frame 7.svg"
-                                                        alt="">
-                                        </div>
-                                </div>
-
-                                <div data-aos="fade-left" data-aos-duration="1500"
-                                        class="col-lg-4 col-md-6 col-12 mb-lxl-0 mb-4">
-                                        <div class="box_clints">
-                                                <img class="pb_1 cursor"
-                                                        src="/assets/img/svg/comas/Homepage  updated 2/1/Vector.svg"
-                                                        alt="">
-                                                <p class="ff-pop fw-normal fs_16 fst-italic pt_11 mb-0">
-                                                        Evergreen
-                                                        Landscapes does amazing work and they are very well
-                                                        priced. I
-                                                        definitely will use them for all my landscaping
-                                                        needs.
-                                                </p>
-                                                <h2 class="ff-libre fw-normal fs_16 fst-italic pt_11 mb-0 ">Y.
-                                                        C.</h2>
-                                                <img class="cursor"
-                                                        src="/assets/img/svg/stars/Homepage  updated 2/1/Frame 7.svg"
-                                                        alt="">
-                                        </div>
-                                </div>
-                        </div>
-
-                </div>
-        </section>
-
-        <section class="green_img mt_176 pt_66 position-relative" id="contact">
-                <div data-aos="fade-right" data-aos-duration="1500" class="container">
-                        <h2 class="ff-libre fs_36 fw-normal pb-1">Contact Us</h2>
-                        <div class="d-flex align-items-center pb-2 pt-3">
-                                <span class="crcle_2 cursor"> <svg width="24" height="24" viewBox="0 0 24 24"
-                                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M19.95 21C17.8 21 15.7043 20.5207 13.663 19.562C11.621 18.604 9.81267 17.3373 8.238 15.762C6.66267 14.1873 5.396 12.379 4.438 10.337C3.47933 8.29567 3 6.2 3 4.05C3 3.75 3.1 3.5 3.3 3.3C3.5 3.1 3.75 3 4.05 3H8.1C8.33333 3 8.54167 3.075 8.725 3.225C8.90833 3.375 9.01667 3.56667 9.05 3.8L9.7 7.3C9.73333 7.53333 9.72933 7.74567 9.688 7.937C9.646 8.129 9.55 8.3 9.4 8.45L7 10.9C7.7 12.1 8.575 13.225 9.625 14.275C10.675 15.325 11.8333 16.2333 13.1 17L15.45 14.65C15.6 14.5 15.796 14.3873 16.038 14.312C16.2793 14.2373 16.5167 14.2167 16.75 14.25L20.2 14.95C20.4333 15 20.625 15.1123 20.775 15.287C20.925 15.4623 21 15.6667 21 15.9V19.95C21 20.25 20.9 20.5 20.7 20.7C20.5 20.9 20.25 21 19.95 21Z"
-                                                        fill="#88C701" />
-                                        </svg>
-                                </span>
-                                <p class=" ff-pop fs_16 fw-normal mb-0 ps-3">(312)
-                                        610-9790</p>
-                        </div>
-
-                        <div class="d-flex align-items-center">
-                                <span class="crcle_2 cursor"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M4 20C3.45 20 2.97933 19.8043 2.588 19.413C2.196 19.021 2 18.55 2 18V6C2 5.45 2.196 4.97933 2.588 4.588C2.97933 4.196 3.45 4 4 4H20C20.55 4 21.021 4.196 21.413 4.588C21.8043 4.97933 22 5.45 22 6V18C22 18.55 21.8043 19.021 21.413 19.413C21.021 19.8043 20.55 20 20 20H4ZM20 8L12.525 12.675C12.4417 12.725 12.354 12.7623 12.262 12.787C12.1707 12.8123 12.0833 12.825 12 12.825C11.9167 12.825 11.8293 12.8123 11.738 12.787C11.646 12.7623 11.5583 12.725 11.475 12.675L4 8V18H20V8ZM12 11L20 6H4L12 11ZM4 8.25V6.775V6.8V6.787V8.25Z"
-                                                        fill="#88C701" />
-                                        </svg>
-                                </span>
-                                <p class=" ff-pop fs_16 fw-normal mb-0 ps-3">
-                                        info@evergreenlandscapesco.com
-                                </p>
-                        </div>
-                        <h2 class="ff-libre fw-normal fs_16 pt-4 mt-1">Hours</h2>
-                        <p class=" ff-pop fs_16 fw-normal mb-0 pt-1">MON-FRI: 9AM - 5PM
-                                <span class="d-block">SAT-SUN: CLOSED</span>
-                        </p>
-                        <p class=" ff-pop fs_16 fw-normal mb-0 pt-4 mb-2"> Contact us
-                                today for a free no
-                                <span class="d-block">obligation
-                                        consultation</span>
-                        </p>
-                </div>
-                <div data-aos="fade-left" data-aos-duration="1500" class="input_box mx-auto pos_abs_input mt_112">
-                        <h2 class="ff-libre fw-normal fs_24">Contact us! someone from
-                        </h2>
-                        <h2 class="ff-libre fs_24 fw-normal pb-4"><span class="text_green fw-medium fst-italic">
-                                        Evergreen
-                                </span> will reach out to you soon </h2>
-                        <input class="w-100 py-3 mb-2 ps-2 input_border mt-1" type="name" placeholder="Jhone Doe">
-                        <input class="w-100 py-3 mb-2 ps-2 input_border" type="phone" placeholder="Phone">
-                        <input class="w-100 py-3 mb-2 ps-2 input_border" type="e-mail" placeholder="Email">
-                        <input class="w-100 py-3 mb-addw mb-2 ps-2 input_border" type="address" placeholder="Address">
-                        <textarea class="w-100 ps-2 pt-2 input_border mb-2" cols="20" rows="5"
-                                placeholder="Message"></textarea>
-                        <div class="d-flex justify-content-center">
-                                <button class="common_btn fw-normal fs_16 mt-4 w-100 transition_5">Send
-                                        Message</button>
-                        </div>
-                </div>
-        </section>
-
-        <section class="pt_111">
-                <div class="container">
-                        <div class="row align-items-center">
-                                <div data-aos="fade-right" data-aos-duration="1500" class="col-lg-5 col-md-6 col-12">
-                                        <img class="cursor"
-                                                src="/assets/img/svg/f-logo/Homepage  updated 2/1/Group 18.svg" alt="">
-                                        <p>Lorem ipsum dolor sit amet consectetur. Suspendisse semper felis
-                                                vulputate
-                                                leo. Id duis morbi facilisis consequat mattis
-                                                facilisi.</p>
-
-                                </div>
-                                <div data-aos="fade-down" data-aos-duration="1500" class="col-lg-7 col-md-6 col-12">
-                                        <ul
-                                                class=" d-flex justify-content-md-end justify-content-center flex-wrap gap-4 ">
-                                                <li onclick="closeNav()"><a href="#home"
-                                                                class="ff-dm fs_16 fw-medium text-black">Home</a>
-                                                </li>
-                                                <li onclick="closeNav()"><a href="#about_us"
-                                                                class="ff-dm fs_16 fw-medium text-black">About
-                                                                us</a>
-                                                </li>
-                                                <li onclick="closeNav()"><a href="#our_services"
-                                                                class="ff-dm fs_16 fw-medium text-black">Our
-                                                                Services</a>
-                                                </li>
-                                                <li onclick="closeNav()"><a href="#gallery"
-                                                                class="ff-dm fs_16 fw-medium text-black">Gallery</a>
-                                                </li>
-                                                <li onclick="closeNav()"><a href="#contact"
-                                                                class="ff-dm fs_16 fw-medium text-black">Contact
-                                                                Us</a>
-                                                </li>
-                                        </ul>
                                         <div data-aos="fade-down" data-aos-duration="1500"
-                                                class="d-flex justify-content-md-end justify-content-center gap-4">
-                                                <img class="scale cursor"
-                                                        src="/assets/img/svg/twitter/Homepage  updated 2/1/ant-design_twitter-circle-filled.svg"
-                                                        alt="twitter">
-                                                <img class="scale cursor"
-                                                        src="/assets/img/svg/facebook/Homepage  updated 2/1/Vector.svg"
-                                                        alt="facebook">
-                                                <img class="scale cursor"
-                                                        src="/assets/img/svg/instagram/Homepage  updated 2/1/ri_instagram-fill.png"
-                                                        alt="instagram">
+                                                class="col-lg-4 col-md-6 col-12 mb-md-0 mb-4">
+                                                <div class="box_clints">
+                                                        <img class="pb_1 cursor"
+                                                                src="/assets/img/svg/comas/Homepage  updated 2/1/Vector.svg"
+                                                                alt="">
+                                                        <p class="ff-pop fw-normal fs_16 fst-italic pt_11 mb-0 ">
+                                                                It is quite clear that Dave truly cares about his
+                                                                clients and
+                                                                about the work he does for them. If you hire his
+                                                                service,
+                                                                your lawn care goals and ambitions will become is own,
+                                                                and he
+                                                                will ensure you are not just satisfied but thrilled.
+                                                        </p>
+                                                        <h2 class="ff-libre fw-normal fs_16 fst-italic pt_11 mb-0 ">S.
+                                                                K.</h2>
+                                                        <img class="cursor"
+                                                                src="/assets/img/svg/stars/Homepage  updated 2/1/Frame 7.svg"
+                                                                alt="">
+                                                </div>
+                                        </div>
+
+                                        <div data-aos="fade-left" data-aos-duration="1500"
+                                                class="col-lg-4 col-md-6 col-12 mb-xl-0 mb-4">
+                                                <div class="box_clints">
+                                                        <img class="pb_1 cursor"
+                                                                src="/assets/img/svg/comas/Homepage  updated 2/1/Vector.svg"
+                                                                alt="">
+                                                        <p class="ff-pop fw-normal fs_16 fst-italic pt_11 mb-0">
+                                                                Evergreen
+                                                                Landscapes does amazing work and they are very well
+                                                                priced. I
+                                                                definitely will use them for all my landscaping
+                                                                needs.
+                                                        </p>
+                                                        <h2 class="ff-libre fw-normal fs_16 fst-italic pt_11 mb-0 ">Y.
+                                                                C.</h2>
+                                                        <img class="cursor"
+                                                                src="/assets/img/svg/stars/Homepage  updated 2/1/Frame 7.svg"
+                                                                alt="">
+                                                </div>
                                         </div>
                                 </div>
-                                <div class="footer_line"></div>
-                                <p class="py_33 mb-0 d-flex justify-content-center">Copyright © 2023 Evergreen
-                                        Landscapes
-                                        LLC. All rights reserved.
-                                </p>
+
                         </div>
-                </div>
-        </section>
+                </section>
 
-        <section>
-                <div class="my-container">
-                        <a id="button"><svg width="20" height="20" fill="black" viewBox="0 0 16 16">
-                                        <path fillRule="evenodd"
-                                                d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z">
-                                        </path>
-                                        <path fillRule="evenodd"
-                                                d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z">
-                                        </path>
-                                </svg></a>
-                </div>
-        </section>
+                <section class="green_img mt_176 pt_66 position-relative" id="contact">
+                        <div data-aos="fade-right" data-aos-duration="1500" class="container">
+                                <div class="ps_150">
+                                        <h2 class="ff-libre fs_36 fw-normal pb-1">Contact Us</h2>
+                                        <div class="d-flex align-items-center pb-2 pt-3">
+                                                <span class="crcle_2 cursor"> <svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M19.95 21C17.8 21 15.7043 20.5207 13.663 19.562C11.621 18.604 9.81267 17.3373 8.238 15.762C6.66267 14.1873 5.396 12.379 4.438 10.337C3.47933 8.29567 3 6.2 3 4.05C3 3.75 3.1 3.5 3.3 3.3C3.5 3.1 3.75 3 4.05 3H8.1C8.33333 3 8.54167 3.075 8.725 3.225C8.90833 3.375 9.01667 3.56667 9.05 3.8L9.7 7.3C9.73333 7.53333 9.72933 7.74567 9.688 7.937C9.646 8.129 9.55 8.3 9.4 8.45L7 10.9C7.7 12.1 8.575 13.225 9.625 14.275C10.675 15.325 11.8333 16.2333 13.1 17L15.45 14.65C15.6 14.5 15.796 14.3873 16.038 14.312C16.2793 14.2373 16.5167 14.2167 16.75 14.25L20.2 14.95C20.4333 15 20.625 15.1123 20.775 15.287C20.925 15.4623 21 15.6667 21 15.9V19.95C21 20.25 20.9 20.5 20.7 20.7C20.5 20.9 20.25 21 19.95 21Z"
+                                                                        fill="#88C701" />
+                                                        </svg>
+                                                </span>
+                                                <p class=" ff-pop fs_16 fw-normal mb-0 ps-3">(312)
+                                                        610-9790</p>
+                                        </div>
 
+                                        <div class="d-flex align-items-center">
+                                                <span class="crcle_2 cursor"><svg width="24" height="24"
+                                                                viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M4 20C3.45 20 2.97933 19.8043 2.588 19.413C2.196 19.021 2 18.55 2 18V6C2 5.45 2.196 4.97933 2.588 4.588C2.97933 4.196 3.45 4 4 4H20C20.55 4 21.021 4.196 21.413 4.588C21.8043 4.97933 22 5.45 22 6V18C22 18.55 21.8043 19.021 21.413 19.413C21.021 19.8043 20.55 20 20 20H4ZM20 8L12.525 12.675C12.4417 12.725 12.354 12.7623 12.262 12.787C12.1707 12.8123 12.0833 12.825 12 12.825C11.9167 12.825 11.8293 12.8123 11.738 12.787C11.646 12.7623 11.5583 12.725 11.475 12.675L4 8V18H20V8ZM12 11L20 6H4L12 11ZM4 8.25V6.775V6.8V6.787V8.25Z"
+                                                                        fill="#88C701" />
+                                                        </svg>
+                                                </span>
+                                                <p class=" ff-pop fs_16 fw-normal mb-0 ps-3">
+                                                        info@evergreenlandscapesco.com
+                                                </p>
+                                        </div>
+                                        <h2 class="ff-libre fw-normal fs_16 pt-4 mt-1">Hours</h2>
+                                        <p class=" ff-pop fs_16 fw-normal mb-0 pt-1">MON-FRI: 9AM - 5PM
+                                                <span class="d-block">SAT-SUN: CLOSED</span>
+                                        </p>
+                                        <p class=" ff-pop fs_16 fw-normal mb-0 pt-4 mb-2"> Contact us
+                                                today for a free no
+                                                <span class="d-block">obligation
+                                                        consultation</span>
+                                        </p>
+                                </div>
+                        </div>
 
+                        <div data-aos="fade-left" data-aos-duration="1500"
+                                class="input_box mx-auto pos_abs_input mt_112">
+                                <h2 class="ff-libre fw-normal fs_24">Contact us! someone from
+                                </h2>
+                                <h2 class="ff-libre fs_24 fw-normal pb-4"><span class="text_green fw-medium fst-italic">
+                                                Evergreen
+                                        </span> will reach out to you soon </h2>
+                                <input class="w-100 py-3 mb-2 ps-2 input_border mt-1" type="name"
+                                        placeholder="Jhone Doe">
+                                <input class="w-100 py-3 mb-2 ps-2 input_border" type="phone" placeholder="Phone">
+                                <input class="w-100 py-3 mb-2 ps-2 input_border" type="e-mail" placeholder="Email">
+                                <input class="w-100 py-3 mb-addw mb-2 ps-2 input_border" type="address"
+                                        placeholder="Address">
+                                <textarea class="w-100 ps-2 pt-2 input_border mb-2" cols="20" rows="5"
+                                        placeholder="Message"></textarea>
+                                <div class="d-flex justify-content-center">
+                                        <button class="common_btn fw-normal fs_16 mt-4 w-100 transition_5">Send
+                                                Message</button>
+                                </div>
+                </section>
 
+                <section class="pt_111">
+                        <div class="container">
+                                <div class="row align-items-center">
+                                        <div data-aos="fade-right" data-aos-duration="1500"
+                                                class="col-lg-5 col-md-6 col-12">
+                                                <img class="cursor"
+                                                        src="/assets/img/svg/f-logo/Homepage  updated 2/1/Group 18.svg"
+                                                        alt="">
+                                                <p>Lorem ipsum dolor sit amet consectetur. Suspendisse semper felis
+                                                        vulputate
+                                                        leo. Id duis morbi facilisis consequat mattis
+                                                        facilisi.</p>
 
+                                        </div>
+                                        <div data-aos="fade-down" data-aos-duration="1500"
+                                                class="col-lg-7 col-md-6 col-12">
+                                                <ul
+                                                        class=" d-flex justify-content-md-end justify-content-center flex-wrap gap-4 ">
+                                                        <li class="position-relative" onclick="closeNav()"><a
+                                                                        href="#home"
+                                                                        class="ff-pop fs_16 fw-normal underline text-black">Home</a>
+                                                        </li>
+                                                        <li class="position-relative" onclick="closeNav()"><a
+                                                                        href="#about_us"
+                                                                        class="ff-pop fs_16 fw-normal underline text-black">About
+                                                                        us</a>
+                                                        </li>
+                                                        <li class="position-relative" onclick="closeNav()"><a
+                                                                        href="#our_services"
+                                                                        class="ff-pop fs_16 fw-normal underline text-black">Our
+                                                                        Services</a>
+                                                        </li>
+                                                        <li class="position-relative" onclick="closeNav()"><a
+                                                                        href="#gallery"
+                                                                        class="ff-pop fs_16 fw-normal underline text-black">Gallery</a>
+                                                        </li>
+                                                        <li class="position-relative" onclick="closeNav()"><a
+                                                                        href="#contact"
+                                                                        class="ff-pop fs_16 fw-normal underline text-black">Contact
+                                                                        Us</a>
+                                                        </li>
+                                                </ul>
+                                                <div data-aos="fade-down" data-aos-duration="1500"
+                                                        class="d-flex justify-content-md-end justify-content-center gap-4">
+                                                        <a href="https://twitter.com/i/flow/login">
+                                                                <img class="scale cursor"
+                                                                        src="/assets/img/svg/twitter/Homepage  updated 2/1/ant-design_twitter-circle-filled.svg"
+                                                                        alt="twitter">
+                                                        </a>
+                                                        <a href="https://www.facebook.com/login/">
+                                                                <img class="scale cursor"
+                                                                        src="/assets/img/svg/facebook/Homepage  updated 2/1/Vector.svg"
+                                                                        alt="facebook">
+                                                        </a>
+                                                        <a href="https://www.instagram.com/?hl=en">
+                                                                <img class="scale cursor"
+                                                                        src="/assets/img/svg/instagram/Homepage  updated 2/1/ri_instagram-fill.png"
+                                                                        alt="instagram">
+                                                        </a>
+                                                </div>
+                                        </div>
+                                        <div class="footer_line mt-3"></div>
+                                        <p class="py_33 mb-0 d-flex justify-content-center text-center">Copyright © 2023
+                                                Evergreen
+                                                Landscapes
+                                                LLC. All rights reserved.
+                                        </p>
+                                </div>
+                        </div>
+                </section>
 
+                <section>
+                        <div class="my-container">
+                                <a id="button"><svg width="20" height="20" fill="black" viewBox="0 0 16 16">
+                                                <path fillRule="evenodd"
+                                                        d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z">
+                                                </path>
+                                                <path fillRule="evenodd"
+                                                        d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z">
+                                                </path>
+                                        </svg></a>
+                        </div>
+                </section>
 
-        <!-- --=============slider link========= -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
-                integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-                crossorigin="anonymous" referrerpolicy="no-referrer">
+                <!-- --=============slider link========= -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+                        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer">
+                        </script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+                        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+                <!--==========bootstrap link============ -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+                        crossorigin="anonymous"> </script>
+
+                <!-- ======aos===== -->
+                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+                <script>
+                        AOS.init({ once: "true" });
                 </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-                integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-                crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <!--==========bootstrap link============ -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-                crossorigin="anonymous"> </script>
+                <script>
+                        $('.slider_2').slick({
+                                dots: false,
+                                infinite: true,
+                                arrows: false,
+                                autoplay: true,
+                                autoplaySpeed: 2000,
+                                speed: 2000,
+                                slidesToShow: 1,
+                                cssEase: "linear",
+                                infinite: true,
+                                slidesToShow: 4,
+                                centerMode: true,
+                                variableWidth: true,
+                                responsive: [
+                                        {
+                                                breakpoint: 1024,
+                                                settings: {
+                                                        slidesToShow: 3,
+                                                        slidesToScroll: 1,
+                                                        infinite: true,
+                                                        dots: false,
+                                                        arrows: false,
+                                                }
+                                        },
+                                        {
+                                                breakpoint: 992,
+                                                settings: {
+                                                        slidesToShow: 2,
+                                                        slidesToScroll: 1,
+                                                        infinite: true,
+                                                        dots: false,
+                                                        arrows: true,
+                                                }
+                                        },
+                                        {
+                                                breakpoint: 768,
+                                                settings: {
+                                                        slidesToShow: 1,
+                                                        slidesToScroll: 1,
+                                                        infinite: true,
+                                                        dots: false,
+                                                        arrows: false,
+                                                }
+                                        },
 
-        <!-- ======aos===== -->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                                ]
+                        });
 
-        <script>
-                AOS.init({ once: "true" });
-        </script>
+                </script>
+                <!-- //================= preloder============ -->
+                <script>
+                        setTimeout(() => {
+                                const preloader = document.getElementById("preloader");
+                                const body = document.body
+                                preloader.style.display = "none";
+                                document.body.classList.remove("hidden");
+                        }, 500);
+                </script>
 
-        <script>
-                $('.slider_2').slick({
-                        dots: false,
-                        infinite: true,
-                        arrows: false,
-                        autoplay: true,
-                        autoplaySpeed: 2000,
-                        speed: 2000,
-                        slidesToShow: 1,
-                        cssEase: "linear",
-                        infinite: true,
-                        slidesToShow: 4,
-                        centerMode: true,
-                        variableWidth: true,
-                        responsive: [
-                                {
-                                        breakpoint: 1024,
-                                        settings: {
-                                                slidesToShow: 3,
-                                                slidesToScroll: 1,
-                                                infinite: true,
-                                                dots: false,
-                                                arrows: false,
-                                        }
-                                },
-                                {
-                                        breakpoint: 992,
-                                        settings: {
-                                                slidesToShow: 2,
-                                                slidesToScroll: 1,
-                                                infinite: true,
-                                                dots: false,
-                                                arrows: true,
-                                        }
-                                },
-                                {
-                                        breakpoint: 768,
-                                        settings: {
-                                                slidesToShow: 1,
-                                                slidesToScroll: 1,
-                                                infinite: true,
-                                                dots: false,
-                                                arrows: false,
-                                        }
-                                },
+                <!--=============== button============= -->
+                <script>
+                        var btn = $('#button');
 
-                        ]
-                });
+                        $(window).scroll(function () {
+                                if ($(window).scrollTop() > 300) {
+                                        btn.addClass('show');
+                                } else {
+                                        btn.removeClass('show');
+                                }
+                        });
 
-        </script>
-        <!-- //================= preloder============ -->
-        <script>
-                setTimeout(() => {
-                        const preloader = document.getElementById("preloader");
-                        const body = document.body
-                        preloader.style.display = "none";
-                        document.body.classList.remove("hidden");
-                }, 3000);
-        </script>
+                        btn.on('click', function (e) {
+                                e.preventDefault();
+                                $('html, body').animate({ scrollTop: 0 }, '300');
+                        });
+                </script>
 
-        <!--=============== button============= -->
-        <script>
-                var btn = $('#button');
 
-                $(window).scroll(function () {
-                        if ($(window).scrollTop() > 300) {
-                                btn.addClass('show');
-                        } else {
-                                btn.removeClass('show');
+                <!--============= slider========= -->
+                <script>
+                        $('.slider_1').slick({
+                                dots: false,
+                                infinite: true,
+                                arrows: true,
+                                autoplay: true,
+                                speed: 2000,
+                                slidesToShow: 1,
+                                fade: true,
+                                cssEase: "linear",
+                                responsive: [
+                                        {
+                                                breakpoint: 1024,
+                                                settings: {
+                                                        slidesToShow: 1,
+                                                        slidesToScroll: 1,
+                                                        infinite: true,
+                                                        dots: false,
+                                                        arrows: false,
+                                                }
+                                        },
+                                        {
+                                                breakpoint: 992,
+                                                settings: {
+                                                        slidesToShow: 1,
+                                                        slidesToScroll: 1,
+                                                        infinite: true,
+                                                        dots: false,
+                                                        arrows: true,
+                                                }
+                                        },
+                                        {
+                                                breakpoint: 768,
+                                                settings: {
+                                                        slidesToShow: 1,
+                                                        slidesToScroll: 1,
+                                                        infinite: true,
+                                                        dots: false,
+                                                        arrows: false,
+                                                }
+                                        },
+
+                                ]
+                        });
+                </script>
+                <!--========= navbar=========-->
+                <script>
+                        $('.slider_3').slick({
+                                dots: false,
+                                infinite: true,
+                                autoplay: true,
+                                autoplaySpeed: 0,
+                                speed: 2000,
+                                slidesToShow: 3,
+                                cssEase: 'linear',
+                                slidesToScroll: 1,
+                                arrows: false,
+                                rtl: true,
+                                responsive: [
+                                        {
+                                                breakpoint: 1024,
+                                                settings: {
+                                                        slidesToShow: 3,
+                                                        slidesToScroll: 1,
+                                                        infinite: true,
+                                                        dots: false,
+                                                        Arrows: false,
+                                                }
+                                        },
+                                        {
+                                                breakpoint: 992,
+                                                settings: {
+                                                        slidesToShow: 2,
+                                                        slidesToScroll: 1,
+                                                        infinite: true,
+                                                        dots: false,
+                                                        Arrows: true,
+                                                }
+                                        },
+                                        {
+                                                breakpoint: 768,
+                                                settings: {
+                                                        slidesToShow: 1,
+                                                        slidesToScroll: 1,
+                                                        infinite: true,
+                                                        dots: false,
+                                                }
+                                        },
+
+                                ]
+                        });
+                </script>
+
+                <script>
+                        function openNav() {
+                                document.getElementById("Menu").style.left = "0%";
+                                document.getElementsByTagName("body")[0].style.overflow = "hidden";
                         }
-                });
-
-                btn.on('click', function (e) {
-                        e.preventDefault();
-                        $('html, body').animate({ scrollTop: 0 }, '300');
-                });
-        </script>
-
-
-        <!--============= slider========= -->
-        <script>
-                $('.slider_1').slick({
-                        dots: false,
-                        infinite: true,
-                        arrows: true,
-                        autoplay: true,
-                        speed: 2000,
-                        slidesToShow: 1,
-                        fade: true,
-                        cssEase: "linear",
-                        responsive: [
-                                {
-                                        breakpoint: 1024,
-                                        settings: {
-                                                slidesToShow: 1,
-                                                slidesToScroll: 1,
-                                                infinite: true,
-                                                dots: false,
-                                                arrows: false,
-                                        }
-                                },
-                                {
-                                        breakpoint: 992,
-                                        settings: {
-                                                slidesToShow: 1,
-                                                slidesToScroll: 1,
-                                                infinite: true,
-                                                dots: false,
-                                                arrows: true,
-                                        }
-                                },
-                                {
-                                        breakpoint: 768,
-                                        settings: {
-                                                slidesToShow: 1,
-                                                slidesToScroll: 1,
-                                                infinite: true,
-                                                dots: false,
-                                                arrows: false,
-                                        }
-                                },
-
-                        ]
-                });
-        </script>
-        <!--========= navbar=========-->
-        <script>
-                $('.slider_3').slick({
-                        dots: false,
-                        infinite: true,
-                        autoplay: true,
-                        autoplaySpeed: 0,
-                        speed: 2000,
-                        slidesToShow: 3,
-                        cssEase: 'linear',
-                        slidesToScroll: 1,
-                        arrows: false,
-                        rtl: true,
-                        responsive: [
-                                {
-                                        breakpoint: 1024,
-                                        settings: {
-                                                slidesToShow: 3,
-                                                slidesToScroll: 1,
-                                                infinite: true,
-                                                dots: false,
-                                                Arrows: false,
-                                        }
-                                },
-                                {
-                                        breakpoint: 992,
-                                        settings: {
-                                                slidesToShow: 2,
-                                                slidesToScroll: 1,
-                                                infinite: true,
-                                                dots: false,
-                                                Arrows: true,
-                                        }
-                                },
-                                {
-                                        breakpoint: 768,
-                                        settings: {
-                                                slidesToShow: 1,
-                                                slidesToScroll: 1,
-                                                infinite: true,
-                                                dots: false,
-                                        }
-                                },
-
-                        ]
-                });
-        </script>
-
-        <script>
-                function openNav() {
-                        document.getElementById("Menu").style.left = "0%";
-                        document.getElementsByTagName("body")[0].style.overflow = "hidden";
-                }
-                function closeNav() {
-                        document.getElementById("Menu").style.left = "-100%";
-                        document.getElementsByTagName("body")[0].style.overflow = "scroll";
-                }  
-        </script>
+                        function closeNav() {
+                                document.getElementById("Menu").style.left = "-100%";
+                                document.getElementsByTagName("body")[0].style.overflow = "scroll";
+                        }  
+                </script>
+        </div>
 </body>
 
 </html>
