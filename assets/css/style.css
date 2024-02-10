@@ -328,6 +328,9 @@
 .box_1:hover .crcle_2 {
   background: #88c701;
 }
+.pb_112 {
+  padding-bottom: 11px;
+}
 .input_box {
   border: 6px solid border #b6cdac;
   max-width: 489px;
@@ -545,6 +548,9 @@
     position: absolute;
     top: -39%;
     left: 52%;
+  }
+  .pb_112 {
+    padding-bottom: 112px;
   }
   .ms_150 {
     padding-left: 150px;
