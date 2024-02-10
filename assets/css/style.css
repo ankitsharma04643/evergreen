@@ -4,7 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-  list-style-type: none !important;
+  list-style-type: none;
   box-sizing: border-box !important;
   text-decoration: none !important;
 }
@@ -198,7 +198,7 @@
   max-width: 267px;
   min-height: 235px;
   padding: 41px 14px 26px 24px;
-  background-color: transparent;
+  background-color: #deedd6;
   border-radius: 10px;
 }
 .box_1:hover {
@@ -274,7 +274,7 @@
   height: 409px;
 }
 .mw_350 {
-  max-width: 280px;
+  max-width: 200px;
 }
 .mw_485 {
   max-width: 485px;
@@ -321,6 +321,9 @@
   padding: 10px;
   background: #ffffff;
   border-radius: 52px;
+}
+.crcle_2:hover {
+  background: #deedd6;
 }
 .box_1:hover .crcle_2 {
   background: #88c701;
@@ -413,6 +416,9 @@
   opacity: 0;
   visibility: hidden;
   z-index: 99;
+}
+.ms_150 {
+  padding-left: 10px;
 }
 
 #button::after {
@@ -539,5 +545,8 @@
     position: absolute;
     top: -39%;
     left: 52%;
+  }
+  .ms_150 {
+    padding-left: 150px;
   }
 }
