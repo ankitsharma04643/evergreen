@@ -60,7 +60,9 @@
 .scale:hover {
   scale: 1.2;
 }
-
+.text_black {
+  color: #1d2631;
+}
 .ff-libre {
   font-family: "Libre Caslon Text";
 }
@@ -196,7 +198,7 @@
 .box_1 {
   border: 1px solid #deedd6;
   max-width: 267px;
-  min-height: 235px;
+  height: 235px;
   padding: 41px 14px 26px 24px;
   background-color: #deedd6;
   border-radius: 10px;
@@ -303,10 +305,7 @@
 .footer_line {
   border: 1px solid #000000;
   max-width: 1132px;
-  top: 317.5px;
-  left: 154px;
-  opacity: 0.2px;
-  background: #000000;
+  opacity: 20%;
 }
 .py_33 {
   padding-top: 33px;
@@ -332,7 +331,7 @@
   padding-bottom: 11px;
 }
 .input_box {
-  border: 6px solid border #b6cdac;
+  border: 6px solid #b6cdac;
   max-width: 489px;
   min-height: 633px;
   padding: 32px;
@@ -441,6 +440,9 @@
 
 #button:active {
   background-color: #0f171f;
+}
+.bg_footer {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f8ec 100%);
 }
 
 #button.show {
